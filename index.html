@@ -4,13 +4,13 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 	<title>Will Livengood</title>
-	<link href="https://fonts.googleapis.com/css?family=Bitter" rel="stylesheet" type="text/css">
+	<link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
 	<link href='https://fonts.googleapis.com/css?family=Poppins:400,600' rel='stylesheet' type='text/css'>
-	<link rel="stylesheet" href="styles/style.css">
+	<link rel="stylesheet" href="public/style.css">
 </head>
 <body>
 	<div class="container">
-		<header>
+		<header class="header">
 			<div class="info">
 				<h1>Will Livengood</h1>
 				<div class="social">
@@ -18,7 +18,7 @@
 						<li><a href="https://github.com/wlivengood" target="_blank">GitHub</a></li><span></span>
 						<li><a href="https://www.linkedin.com/in/will-livengood-53110653/" target="_blank">LinkedIn</a></li><span></span>
 						<li><a href="mailto:wlivengo@gmail.com">Email</a></li><span></span>
-						<li><a href="">Resume</a>
+						<li><a href="public/resume.pdf" target="_blank">Resume</a>
 					</ul>
 				</div>
 			</div>
@@ -27,19 +27,21 @@
 		<div class="content-container">
 			<section id="about" class="about">
 				<div id="bio" class="bio">
-					<h2>Hi there!</h2>
-					<p>I am a creative, passionate software engineer who enjoys building robust web applications using clean, modular, performance-optimized code across the stack.</p>
-					<p>When I'm not coding (and sometimes when I am), I like to eat good barbecue, sip single malt scotch, play my trumpet and worry incessantly about fantasy football.</p>
+					<span class="intro-text intro-text-0"></span><br/>
+					<span class="intro-text intro-text-1"></span><br/>
+					<span class="intro-text intro-text-2"></span><br/>
+					<span class="intro-text intro-text-3"></span><br/>
 				</div>
 			</section>
+			<div class="after-intro">
 			<section id="work" class="work">
 				<h2>Projects</h2>
 				<ul class="projects">
-					<li class="project"><a href="https://chip8js.herokuapp.com/" target="_blank">Chip-8.js</a> -<span>An in-browser interpreter for the CHIP-8 language written in JavaScript.</span></li>
-					<li class="project"><a href="https://markovtwitter.herokuapp.com/" target="_blank">Markov-Twitter</a> -<span>A web application that uses Markov chains to process a user's Twitter timeline and generate superficially similar tweets. Created for Fullstack Academy's Stackathon.</span></li>
-					<li class="project"><a href="parkhereapp.com" target="_blank"> ParkHere</a> -<span>A hybrid mobile application that helps users find public or garage parking, plus a marketplace for private parking spots.</span></</li>
-					<li class="project"><a href="https://github.com/wlivengood/babel-plugin-op-overload" target="_blank">op-overload</a> -<span>A Babel plugin and npm package that support Python-style operator overloading in JavaScript</span></li>
-					<li class="project"><a href="http://grace-hopper-wkt.herokuapp.com/" target="_blank">Grace Shopper</a> -<span>A platform that allows users to create and manage an e-commerce site.</span></li>
+					<li class="project"><a href="https://chip8js.herokuapp.com/" target="_blank">Chip-8.js</a><span>  An in-browser interpreter for the CHIP-8 language written in JavaScript.</span></li>
+					<li class="project"><a href="https://markovtwitter.herokuapp.com/" target="_blank">Markov-Twitter</a><span>  A web application that uses Markov chains to process a user's Twitter timeline and generate superficially similar tweets. Created for Fullstack Academy's Stackathon.</span></li>
+					<li class="project"><a href="http://www.parkhereapp.com" target="_blank"> ParkHere</a><span>  A hybrid mobile application that helps users find public or garage parking, plus a marketplace for private parking spots.</span></</li>
+					<li class="project"><a href="https://github.com/wlivengood/babel-plugin-op-overload" target="_blank">op-overload</a><span>  A Babel plugin and npm package that support Python-style operator overloading in JavaScript</span></li>
+					<li class="project"><a href="http://grace-hopper-wkt.herokuapp.com/" target="_blank">Grace Shopper</a><span>  A platform that allows users to create and manage an e-commerce site.</span></li>
 				</ul>
 			</section>
 			<section id="Skills" class="work">
@@ -51,10 +53,14 @@
 					<li class="skill">Programming paradigms: <span>Imperative, Declarative, Functional, Object-oriented</span></li>
 				</ul>
 			</section>
+			</div>
 		</div>
 		<footer>
 			<div class="copyright">Copyright &copy; 2017 Will Livengood</div>
 		</footer>
 	</div>
+	<script src="public/jquery-3.2.0.min.js"></script>
+	<script src="public/typed.js"></script>
+	<script src="public/main.js"></script>
 </body>
 </html>
