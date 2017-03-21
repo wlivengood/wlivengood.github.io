@@ -1,0 +1,191 @@
+html, body {
+	color: #fff; 
+	background-color: #00504d;
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	font-family: 'Poppins', sans-serif;
+	font-weight: 400;
+	height: 100%;
+	margin: 0 auto;
+	max-width: 1280px;
+	width: 80%;
+}
+
+.container {
+
+}
+
+section, footer {
+	display: inline-block;
+	width: 100%;
+}
+
+h1 {
+	color: #fff;
+	font-family: 'Bitter', sans-serif;
+	font-size: 90px;
+	font-weight: 400;
+	letter-spacing: 5px;
+	margin-bottom: 10px;
+	margin: 0;
+}
+
+h2 {
+	font-size: 28px;
+	font-weight: 600;
+	letter-spacing: 1px;
+	margin-bottom: 20px;
+	margin-top: 0;
+}
+
+a {
+	color: #fff;
+	text-decoration: none;
+}
+
+a:hover {
+	font-weight: bold;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding-left: 0;
+}
+
+li {
+	font-size: 18px;
+	padding-bottom: 16px;
+}
+
+.social li {
+	display: inline;
+	font-size: 14px;
+	letter-spacing: 2px;
+}
+
+.social li a {
+	color: #fff;
+}
+
+.social li a:hover {
+	font-weight: bold;
+}
+
+.social span {
+	padding: 0 20px;
+}
+
+/* About
+/*-----------------------*/
+.about {
+	margin-bottom: 10px;
+}
+
+.about p {
+	color: #fff;
+	font-size: 18px;
+	line-height: 22px;
+}
+
+.about span {
+	font-weight: 600;
+}
+
+.bio {
+	width: 80%;
+	text-align: justify;
+}
+
+/* Work
+/*-----------------------*/
+.work {
+	margin: 25px 0 25px 0;
+	font-size: 18px;
+}
+
+.work a {
+	color: #fff;
+}
+
+.work a:hover {
+	font-weight: #bold;
+}
+
+.work span {
+	font-style: italic;
+	font-size: 14px;
+	padding-left: 5px;
+}
+
+/* Skills
+/*-----------------------*/
+.skills {
+	margin: 25px 0 25px 0;
+	color: #fff;
+	font-size: 18px;
+}
+
+.skills span {
+	font-style: italic;
+	font-size: 14px;
+	padding-left: 15px;
+}
+
+
+/* Footer
+/*-----------------------*/
+.copyright {
+	border-top: 1px solid #999;
+	font-size: 14px;
+	margin: 50px auto 20px auto;
+	padding-top: 20px;
+}
+
+/* Media Queries
+/*-----------------------*/
+@media (max-width: 640px) {
+	.avatar {
+		width: 66px;
+		height: 100px;
+	}
+
+	h1 {
+		font-size: 50px;
+	}
+
+	h1 span {
+		display: block;
+	}
+
+	.social span {
+		padding: 0 4px;
+	}
+
+	.bio {
+		width: 100%;
+	}
+}
+
+@media (max-width: 640px) and (orientation:landscape) {
+	.info {
+		padding-top: 100px;
+	}
+}
+
+@media (max-width: 480px) {
+	.container {
+		width: 90%;
+	}
+
+	.info {
+		padding-top: 100px;
+	}
+
+	.social span {
+		padding: 0 4px;
+	}
+}
