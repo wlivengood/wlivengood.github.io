@@ -35,7 +35,7 @@ h1 {
 }
 
 h2 {
-	font-size: 30px;
+	font-size: 36px;
 	font-weight: 600;
 	letter-spacing: 1px;
 	margin-bottom: 20px;
@@ -58,7 +58,7 @@ ul {
 }
 
 li {
-	font-size: 18px;
+	font-size: 22px;
 	padding-bottom: 16px;
 }
 
@@ -102,7 +102,6 @@ li {
 /*-----------------------*/
 .work {
 	margin: 25px 0 0 0;
-	font-size: 18px;
 }
 
 .work a {
@@ -115,7 +114,7 @@ li {
 
 .work span {
 	font-style: italic;
-	font-size: 14px;
+	font-size: 16px;
 	padding-left: 5px;
 }
 
@@ -124,12 +123,11 @@ li {
 .skills {
 	margin: 25px 0 25px 0;
 	color: #fff;
-	font-size: 18px;
 }
 
 .skills span {
 	font-style: italic;
-	font-size: 14px;
+	font-size: 16px;
 	padding-left: 15px;
 }
 
