@@ -1,5 +1,5 @@
 var introLines = [`^1500Hi there!^500 I'm Will.`, `^1500I build software.`, 
-`^1500I love clean, modular code, single malt scotch, barbecue, fantasy football and playing
+`^1500I like clean, modular code, single malt scotch, barbecue, fantasy football and playing
  my trumpet.`, `^1500Have a look around!`];
 
 $(document).ready(function() {
