@@ -11,14 +11,7 @@ $(document).ready(function() {
     $(".short-circuit").hide();
     $(".after-intro").hide();
     $(".copyright").hide();
-    $(".header").hide().slideDown('slow', function() {
-        $(".intro-text-0").typed({
-            strings: [introLines[0]],
-            typeSpeed: 0,
-            cursorChar: " |",
-            callback: nextLine(1)
-        });
-    });
+    $(".header").hide().slideDown('slow', nextLine(0));
 });
 
 

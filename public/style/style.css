@@ -15,7 +15,7 @@ html, body {
 }
 
 header {
-	border-bottom: 1px solid #999;
+	border-bottom: 1px solid #fff;
 	margin: 50px auto 20px auto;
 }
 
@@ -44,7 +44,6 @@ h2 {
 
 a {
 	color: #fff;
-	text-decoration: none;
 }
 
 a:hover {
@@ -66,18 +65,16 @@ li {
 	display: inline;
 	font-size: 14px;
 	letter-spacing: 2px;
+	padding: 0 20px;
 }
 
 .social li a {
 	color: #fff;
+	text-decoration: none;
 }
 
 .social li a:hover {
 	font-weight: bold;
-}
-
-.social span {
-	padding: 0 20px;
 }
 
 /* About
@@ -91,11 +88,6 @@ li {
 	font-size: 22px;
 	line-height: 30px;
 	font-weight: 500;
-}
-
-.bio {
-	width: 80%;
-	text-align: justify;
 }
 
 /* Work
@@ -135,7 +127,7 @@ li {
 /* Footer
 /*-----------------------*/
 .copyright {
-	border-top: 1px solid #999;
+	border-top: 1px solid #fff;
 	font-size: 14px;
 	margin: 50px auto 20px auto;
 	padding-top: 20px;
@@ -154,10 +146,6 @@ li {
 
 	.social span {
 		padding: 0 4px;
-	}
-
-	.bio {
-		width: 100%;
 	}
 }
 
