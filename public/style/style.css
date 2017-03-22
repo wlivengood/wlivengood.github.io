@@ -86,13 +86,10 @@ li {
 	margin-bottom: 10px;
 }
 
-.about p {
+.about span {
 	color: #fff;
 	font-size: 22px;
-	line-height: 26px;
-}
-
-.about span {
+	line-height: 30px;
 	font-weight: 500;
 }
 
