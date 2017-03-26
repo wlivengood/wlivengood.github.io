@@ -110,6 +110,11 @@ li {
 	padding-left: 5px;
 }
 
+.work span a {
+	font-style: normal;
+	text-decoration: none;
+}
+
 /* Skills
 /*-----------------------*/
 .skills {
