@@ -206,7 +206,9 @@ li {
 }
 
 @media (max-width: 360px) {
+	.header {margin-top: 0px;}
 	.container {
+		margin-top: 0px;
 		width: 90%;
 	}
 
