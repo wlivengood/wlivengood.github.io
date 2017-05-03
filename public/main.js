@@ -1,6 +1,7 @@
-var introLines = [`^1500Hi there!^500 I'm Will.^1500`, `^I build software.^1500`, 
-`^I like clean, modular code, single malt Scotch, barbecue, fantasy football and playing
- my trumpet.^1500`, `^Have a look around!`];
+var introLines = [`^1500Hi there!^500 I'm Will.^1500`, `^Princeton '11.^1000 Fullstack
+Academy '17.^1500`, `^I'm a creative, passionate software engineer who believes in clean, modular, 
+human-focused code.^1500`,`I love barbecue, single-malt Scotch, playing my trumpet, and worrying 
+a bit more than is reasonable about fantasy football^1500.`, 'Have a look around!^1000'];
 
 $(document).ready(function() {
     // Stop the typing on a click
