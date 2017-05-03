@@ -140,6 +140,22 @@ li {
 
 /* Media Queries
 /*-----------------------*/
+
+@media (max-width: 768px) {
+	h1 {
+		font-size: 70px;
+	}
+
+	h1 span {
+		display: block;
+	}
+
+	.social li {
+		font-size: 20px;
+		padding: 0 4px;
+	}
+}
+
 @media (max-width: 640px) {
 	h1 {
 		font-size: 50px;
@@ -149,7 +165,7 @@ li {
 		display: block;
 	}
 
-	.social span {
+	.social li {
 		padding: 0 4px;
 	}
 }
@@ -169,7 +185,7 @@ li {
 		padding-top: 100px;
 	}
 
-	.social span {
+	.social li {
 		padding: 0 3px;
 	}
 }
@@ -183,8 +199,24 @@ li {
 		padding-top: 100px;
 	}
 
-	.social span {
+	.social li {
+		font-size: 14px;
 		padding: 0 3px;
+	}
+}
+
+@media (max-width: 360px) {
+	.container {
+		width: 90%;
+	}
+
+	.info {
+		padding-top: 100px;
+	}
+
+	.social li {
+		padding: 0 3px;
+		font-size: 14px;
 	}
 }
 
@@ -197,8 +229,8 @@ li {
 		padding-top: 100px;
 	}
 
-	.social span {
-		padding: 0 3px;
+	.social li {
+		padding: 0 4px;
 	}
 }
 
@@ -211,8 +243,23 @@ li {
 		padding-top: 100px;
 	}
 
-	.social span {
+	.social li {
+		padding: 0 4px;
+	}
+}
+
+@media (max-width: 412px) {
+	.container {
+		width: 90%;
+	}
+
+	.info {
+		padding-top: 100px;
+	}
+
+	.social li {
 		padding: 0 3px;
+		font-size: 14px;
 	}
 }
 
@@ -225,8 +272,8 @@ li {
 		padding-top: 100px;
 	}
 
-	.social span {
-		padding: 0 3px;
+	.social li {
+		padding: 0 4px;
 	}
 }
 
