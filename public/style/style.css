@@ -170,7 +170,63 @@ li {
 	}
 
 	.social span {
-		padding: 0 4px;
+		padding: 0 3px;
+	}
+}
+
+@media (max-width: 320px) {
+	.container {
+		width: 90%;
+	}
+
+	.info {
+		padding-top: 100px;
+	}
+
+	.social span {
+		padding: 0 3px;
+	}
+}
+
+@media (max-width: 375px) {
+	.container {
+		width: 90%;
+	}
+
+	.info {
+		padding-top: 100px;
+	}
+
+	.social span {
+		padding: 0 3px;
+	}
+}
+
+@media (max-width: 384px) {
+	.container {
+		width: 90%;
+	}
+
+	.info {
+		padding-top: 100px;
+	}
+
+	.social span {
+		padding: 0 3px;
+	}
+}
+
+@media (max-width: 414px) {
+	.container {
+		width: 90%;
+	}
+
+	.info {
+		padding-top: 100px;
+	}
+
+	.social span {
+		padding: 0 3px;
 	}
 }
 
