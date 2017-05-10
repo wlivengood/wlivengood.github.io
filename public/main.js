@@ -1,6 +1,5 @@
 var introLines = [`^1500Hi there!^500 I'm Will.^1500`, 
-                  `^I believe in building human-focused software with clean, modular, <i>beautiful</i> code.^1500`,
-                  `When I'm not coding, I enjoy Pop-Tarts&trade;, fantasy football, and playing my trumpet.^1500`];
+                  `^I like clean, modular code, creative problem-solving, Pop-Tarts&trade; and fantasy football.^1500`];
 
 $(document).ready(function() {
     // Stop the typing on a click
