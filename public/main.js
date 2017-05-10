@@ -1,7 +1,6 @@
 var introLines = [`^1500Hi there!^500 I'm Will.^1500`, 
-                  `^I build software.^1500`,
-                  `I like clean, modular code, Pop-Tarts&trade;, fantasy football, and playing my trumpet.^1500`, 
-                  'Have a look around!^1000'];
+                  `^I believe in building human-focused software with clean, modular, <i>beautiful</i> code.^1500`,
+                  `When I'm not coding, I enjoy Pop-Tarts&trade;, fantasy football, and playing my trumpet.^1500`];
 
 $(document).ready(function() {
     // Stop the typing on a click
@@ -29,7 +28,7 @@ function nextLine(line) {
              $(".typed-cursor").fadeOut("fast");
              $(".intro-text-" + line).typed({
                  strings: [introLines[line]],
-                 typeSpeed: 0,
+                 typeSpeed: 1,
                  cursorChar: " |",
                  callback: nextLine(line + 1)
              })
