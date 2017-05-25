@@ -1,4 +1,5 @@
-var introLines = [`^1500Hi there!^500 I'm Will.^1500`, 
+var introLines = [`^1500Hi there!^500 I'm Will.^1500`,
+                  `I build software.^1500`,
                   `^I like clean, modular code, creative problem-solving, Pop-Tarts&trade; and fantasy football.^1500`];
 
 $(document).ready(function() {
